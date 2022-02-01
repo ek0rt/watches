@@ -1,0 +1,138 @@
+@media (max-width: 991px) {
+  .promo {
+    padding: 5px 15px 5px 15px;
+    &__header {
+      font-size: 39px;
+    }
+    &__subheader {
+      font-size: 21px;
+    }
+    &__icons {
+      width: 390px;
+    }
+    &__icon {
+      font-size: 12px;
+    }
+    &__link {
+    font-size: 15px;
+    }
+  }
+}
+.button {
+  &_main {
+    width: 280px;
+  }
+}
+.advantages {
+  &__descr {
+    font-size: 12px;
+    line-height: 20px;
+  }
+}
+
+@media (max-width: 620px) {
+    .header {
+      flex-direction: column;
+      &__official {
+        margin-top: 40px;
+        font-size: 16px;
+        span {
+          font-size: 25px;
+        }
+      }
+      &__contacts {
+        margin-top: 20px;
+      }
+      &__phone {
+        font-size: 25px;
+        font-weight: 700;
+        text-align: center;
+        padding-right: 15px;
+      }
+      .button {
+        &__header {
+          display: block;
+          margin: auto;
+          height: 40px;
+          width: 200px;
+          font-weight: 700;
+        }
+      }
+      }
+    
+  .promo {
+    padding: 20px 15px 15px 15px;
+    background: url(../../img/bg1.png) center (right/cover) no-repeat;
+    &__wrapper {
+      margin-top: 80px;
+    }
+    &__header {
+      margin: auto;
+      font-size: 22px;
+      text-align: center;
+      }
+  
+    &__subheader {
+      margin: auto;
+      font-size: 18px;
+      text-align: center;
+    }
+    &__icons {
+      margin: auto;
+      margin-top: 40px;
+      width: 300px;
+    }
+    &__icon {
+      font-size: 12px;
+    }
+    &__link {
+      font-size: 15px;
+    }
+
+
+    .catalog {
+      display: flex;
+      flex-direction: column;
+      justify-content: end;
+      width: 100%;
+      align-items: center;
+      .button {
+        &_main {
+          display: flex;
+          width: 180px;
+          height: 40px;
+          font-size: 12px;
+          text-align: center;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+      .xs-visible {
+        font-size: 12px;
+        display: flex;
+        width: 180px;
+        height: 37px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+      }
+    }
+
+ 
+     
+  .xs-hidden {
+    display: none;
+  }
+ 
+  }
+
+
+.advantages {
+  &__descr {
+    font-size: 12px;
+    line-height: 20px;
+  }
+}
+
+}
