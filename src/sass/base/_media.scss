@@ -30,7 +30,11 @@
   }
 }
 
-@media (max-width: 620px) {
+@media (max-width: 630px) {
+
+    .title {
+      font-size: 25px;
+    } 
     .header {
       flex-direction: column;
       &__official {
@@ -129,10 +133,14 @@
 
 
 .advantages {
-  &__descr {
-    font-size: 12px;
-    line-height: 20px;
+  &__wrapper {
+    flex-direction: column;
+  }
+  &__item {
+    margin: auto;
   }
 }
+
+
 
 }
