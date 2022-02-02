@@ -25,18 +25,85 @@
 }
 .advantages {
   &__descr {
-    font-size: 12px;
+    font-size: 14px;
     line-height: 20px;
   }
 }
 
-@media (max-width: 630px) {
+@media (max-width: 767px) {
+
+  .header {
+    &__official {
+      font-size: 13px;
+      span {
+        font-size: 15px;
+      }
+    }
+    &__phone {
+      font-size: 13px;
+      font-weight: 700;
+      text-align: right;
+      padding-right: 15px;
+    }
+
+    &__logo {
+     width: 210px;
+    }
+
+    .button {
+      &__header {
+        width: 140px;
+      }
+    }
+  }
+
+  .promo {
+    background: url(../../img/bgm.png) center (center/cover) no-repeat;
+  }
+  .button {
+    &_main {
+      margin-top: 130px;
+    }
+  }
+
+  .title {
+    font-size: 38px;
+  }
+
+  .advantages {
+    &__wrapper {
+      flex-direction: column;
+      margin-top: 20px;
+    }
+    &__item {
+      margin: auto;
+      margin-top: 20px;
+      max-width: 400px;
+      img {
+        width: 80px;
+      }
+    }
+    &__subtitle {
+      font-size: 30px;
+    }
+    &__descr {
+      margin: 11px auto auto auto;
+      font-size: 20px;
+      text-align: center;
+      width: 80%;
+    }
+  }
+}
+
+
+@media (max-width: 575px) {
 
     .title {
-      font-size: 25px;
+      font-size: 30px;
     } 
     .header {
       flex-direction: column;
+      margin-left: 20px;
       &__official {
         margin-top: 40px;
         font-size: 16px;
@@ -48,25 +115,41 @@
         margin-top: 20px;
       }
       &__phone {
+        margin-top: 20px;
         font-size: 25px;
         font-weight: 700;
         text-align: center;
         padding-right: 15px;
       }
+      &__logo {
+        z-index: 1;
+        margin-left: 10px;
+      }
       .button {
         &__header {
           display: block;
           margin: auto;
-          height: 40px;
-          width: 200px;
+          height: 38px;
+          width: 160px;
           font-weight: 700;
         }
       }
       }
     
   .promo {
-    padding: 20px 15px 15px 15px;
-    background: url(../../img/bg1.png) center (right/cover) no-repeat;
+    .logo__background {
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background: rgba(41, 40, 40, 0.6);;
+      height: 65px;
+      width: 100%;
+      z-index: 1;
+    }
+    position: relative;
+    padding: 10px 15px 15px 15px;
+    background: url(../../img/bgm.png) center (center/cover) no-repeat;
     &__wrapper {
       margin-top: 80px;
     }
@@ -84,7 +167,7 @@
     &__icons {
       margin: auto;
       margin-top: 40px;
-      width: 300px;
+      width: 276px;
     }
     &__icon {
       font-size: 12px;
@@ -103,8 +186,8 @@
       .button {
         &_main {
           display: flex;
-          width: 180px;
-          height: 40px;
+          width: 160px;
+          height: 38px;
           font-size: 12px;
           text-align: center;
           justify-content: center;
@@ -114,7 +197,7 @@
       .xs-visible {
         font-size: 12px;
         display: flex;
-        width: 180px;
+        width: 160px;
         height: 37px;
         text-align: center;
         align-items: center;
@@ -122,25 +205,31 @@
         margin-top: 10px;
       }
     }
-
- 
      
   .xs-hidden {
     display: none;
   }
- 
   }
-
-
 .advantages {
   &__wrapper {
     flex-direction: column;
+    margin-top: 20px;
   }
   &__item {
     margin: auto;
+    margin-top: 20px;
+    max-width: 280px;
+  }
+  &__descr {
+    margin: 18px auto auto auto;
+    font-size: 16px;
+    width: 90%;
+    text-align: center;
   }
 }
-
-
-
+@media (max-width: 360px) {
+  .title {
+    font-size: 25px;
+  }
+}
 }
