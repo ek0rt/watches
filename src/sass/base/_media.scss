@@ -88,7 +88,7 @@
     }
     &__descr {
       margin: 11px auto auto auto;
-      font-size: 20px;
+      font-size: 17px;
       text-align: center;
       width: 80%;
     }
@@ -105,14 +105,14 @@
       flex-direction: column;
       margin-left: 20px;
       &__official {
-        margin-top: 40px;
-        font-size: 16px;
+        margin-top: 60px;
+        font-size: 15px;
         span {
           font-size: 25px;
         }
       }
       &__contacts {
-        margin-top: 20px;
+        margin-top: 30px;
       }
       &__phone {
         margin-top: 20px;
@@ -123,7 +123,8 @@
       }
       &__logo {
         z-index: 1;
-        margin-left: 10px;
+        margin: auto;
+        width: 60%;
       }
       .button {
         &__header {
@@ -142,7 +143,7 @@
       position: absolute;
       top: 0;
       left: 0;
-      background: rgba(41, 40, 40, 0.6);;
+      background: rgba(31, 30, 30, 0.6);;
       height: 65px;
       width: 100%;
       z-index: 1;
@@ -150,12 +151,13 @@
     position: relative;
     padding: 10px 15px 15px 15px;
     background: url(../../img/bgm.png) center (center/cover) no-repeat;
+    height: 750px;
     &__wrapper {
-      margin-top: 80px;
+      margin-top: 60px;
     }
     &__header {
       margin: auto;
-      font-size: 22px;
+      font-size: 19px;
       text-align: center;
       }
   
@@ -166,7 +168,7 @@
     }
     &__icons {
       margin: auto;
-      margin-top: 40px;
+      margin-top: 60px;
       width: 276px;
     }
     &__icon {
@@ -192,6 +194,7 @@
           text-align: center;
           justify-content: center;
           align-items: center;
+          margin-top: 60px;
         }
       }
       .xs-visible {
