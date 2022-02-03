@@ -2,4 +2,10 @@
     min-height: 680px;
     padding: 100px 0 92px 0;
     background: url(../../img/secList/bg2.png) center (center/cover) no-repeat;
+    &__ descr {
+      font-size: 20px;
+      font-weight: 500;
+      text-align: left;
+      color: #fff;
+    }
 }
