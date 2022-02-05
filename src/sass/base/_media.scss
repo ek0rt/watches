@@ -17,7 +17,7 @@
     font-size: 15px;
     }
   }
-}
+
 .button {
   &_main {
     width: 280px;
@@ -28,6 +28,30 @@
     font-size: 14px;
     line-height: 20px;
   }
+}
+.title {
+  font-size: 30px;
+  &_left {
+    font-size: 28px;
+    text-align: center;
+    margin: auto;
+  }
+}
+
+.consultation {
+  padding: 70px 0 70px 0;
+  &__descr {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+    line-height: 20px;
+  }
+  .feed-form {
+    margin: auto;
+    margin-top: 30px;
+    width: 280px;
+  }
+}
 }
 
 @media (max-width: 767px) {
@@ -71,6 +95,7 @@
   }
 
   .advantages {
+    padding: 60px 0 70px 0;
     &__wrapper {
       flex-direction: column;
       margin-top: 20px;
@@ -93,6 +118,40 @@
       width: 80%;
     }
   }
+
+  .title {
+    font-size: 30px;
+    &_left {
+      font-size: 28px;
+      text-align: center;
+      margin: auto;
+    }
+  }
+
+  .consultation {
+    padding: 70px 0 70px 0;
+    &__descr {
+      text-align: center;
+      font-size: 20px;
+      margin-top: 20px;
+      line-height: 20px;
+    }
+    .feed-form {
+      margin: auto;
+      margin-top: 30px;
+      width: 280px;
+    }
+  }
+
+  .carousel__inner {
+    width: 500px;
+  }
+  .slick-slide {
+    img {
+      width: 100%;
+    }
+  }
+
 }
 
 
@@ -103,12 +162,11 @@
     } 
     .header {
       flex-direction: column;
-      margin-left: 20px;
       &__official {
         margin-top: 60px;
-        font-size: 15px;
+        font-size: 18px;
         span {
-          font-size: 25px;
+          font-size: 28px;
         }
       }
       &__contacts {
@@ -116,7 +174,7 @@
       }
       &__phone {
         margin-top: 20px;
-        font-size: 25px;
+        font-size: 22px;
         font-weight: 700;
         text-align: center;
         padding-right: 15px;
@@ -124,20 +182,26 @@
       &__logo {
         z-index: 1;
         margin: auto;
-        width: 60%;
+        width: 53%;
       }
       .button {
         &__header {
           display: block;
           margin: auto;
-          height: 38px;
-          width: 160px;
+          margin-top: 3px;
+          height: 40px;
+          width: 180px;
           font-weight: 700;
+          font-size: 15px;
         }
       }
       }
     
   .promo {
+    height: 780px;
+    position: relative;
+    padding: 10px 15px 15px 15px;
+    background: url(../../img/bgm.png) center (center/cover) no-repeat;
     .logo__background {
       display: block;
       position: absolute;
@@ -148,10 +212,6 @@
       width: 100%;
       z-index: 1;
     }
-    position: relative;
-    padding: 10px 15px 15px 15px;
-    background: url(../../img/bgm.png) center (center/cover) no-repeat;
-    height: 750px;
     &__wrapper {
       margin-top: 60px;
     }
@@ -188,8 +248,8 @@
       .button {
         &_main {
           display: flex;
-          width: 160px;
-          height: 38px;
+          width: 180px;
+          height: 40px;
           font-size: 12px;
           text-align: center;
           justify-content: center;
@@ -198,10 +258,10 @@
         }
       }
       .xs-visible {
-        font-size: 12px;
+        font-size: 13px;
         display: flex;
-        width: 160px;
-        height: 37px;
+        width: 180px;
+        height: 40px;
         text-align: center;
         align-items: center;
         justify-content: center;
@@ -221,18 +281,90 @@
   &__item {
     margin: auto;
     margin-top: 20px;
-    max-width: 280px;
+    max-width: 350px;
+  }
+  &__subtitle {
+    line-height: 30px;
   }
   &__descr {
     margin: 18px auto auto auto;
-    font-size: 16px;
-    width: 90%;
+    font-size: 17px;
+    width: 100%;
     text-align: center;
   }
 }
-@media (max-width: 360px) {
-  .title {
-    font-size: 25px;
+
+.title {
+  font-size: 30px;
+  &_left {
+    max-width: 500px;
+    font-size: 28px;
+    text-align: center;
+    margin: auto;
   }
 }
+.consultation {
+  padding-top: 80px;
+  &__descr {
+    text-align: center;
+    font-size: 22px;
+    margin-top: 20px;
+    line-height: 25px;
+  }
+  .feed-form {
+    margin: auto;
+    margin-top: 30px;
+    width: 310px;
+    input {
+      height: 55px;
+    }
+
+  }
 }
+.carousel__inner {
+  width: 320px;
+}
+.slick-slide {
+  img {
+    width: 100%;
+  }
+}
+
+}
+
+
+@media (max-width: 360px) {
+
+  .promo {
+    height: 100%;
+  }
+  .title {
+    font-size: 25px;
+    &_left {
+      font-size: 20px;
+      text-align: center;
+    }
+  }
+
+  .header {
+    &__logo {
+      display: block;
+      width: 250px;
+      margin: auto;
+    }
+  }
+  .consultation {
+    &__descr {
+      text-align: center;
+      font-size: 18px;
+      margin-top: 20px;
+      line-height: 20px;
+    }
+    .feed-form {
+      margin: auto;
+      margin-top: 30px;
+      width: 280px;
+    }
+  }
+}
+
