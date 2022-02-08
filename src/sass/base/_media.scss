@@ -1,10 +1,67 @@
 @media (max-width: 1200px) {
-  .carousel .container {
-    width: 800px;
+  .container {
+    max-width: 950px;
   }
+
+  .catalog__content {
+    justify-content: center;
+  }
+
+  .catalog-item {
+    width: 300px;
+
+    &__wrapper {
+      width: calc(220%);
+    }
+    &__list {
+      padding-right: 15px;
+    }
+    &__price {
+      font-size: 18px;
+    }
+    &__list_item {
+      position: relative;
+      font-size: 14px;
+      line-height: 21px;
+    }
+    &__descr {
+      font-size: 13px;
+    }
+  }
+
+  .tns-outer {
+    width: 840px;
+    margin: auto;
+  }
+
+  .carousel .prev {
+    left: 10px;
+    img {
+      height: 40px;
+      width: 28px;
+    }
+  }
+
+  .carousel .next {
+    right: 10px;
+    img {
+      height: 40px;
+      width: 28px;
+    }
+  }
+
+  .carousel .tns-item img {
+    width: 600px;
+    
+  }
+
 }
 
 @media (max-width: 991px) {
+
+  .container {
+    max-width: 800px;
+  }
 
   .carousel [aria-controls] {
     height: 20px;
@@ -15,13 +72,19 @@
     margin: 0 17px;
   }
 
+  .tns-outer {
+    margin: auto;
+  }
+
+ 
+
   .tns-item {
     img {
      width: 700px;
     }
   }
 
-  .carousel .container {
+  .container {
     width: 750px;
   }
 
