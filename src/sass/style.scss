@@ -1,3 +1,16 @@
+* {
+	font-family: 'Museo Sans Cyrl', sans-serif;
+}
+
+.container {
+  position: relative;
+	max-width: 950px;
+	margin: auto;
+}
+
+
+
+
 @import 'base/variables';
 @import 'blocks/promo';
 @import 'blocks/header';
@@ -10,12 +23,4 @@
 @import 'blocks/catalog';
 @import 'base/media';
 
-* {
-	font-family: 'Museo Sans Cyrl', sans-serif;
-}
 
-.container {
-  position: relative;
-	max-width: 950px;
-	margin: auto;
-}
