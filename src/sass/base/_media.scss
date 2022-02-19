@@ -133,6 +133,11 @@
     width: 280px;
   }
 }
+.footer {
+  &__info {
+    height: 245px;
+  }
+}
 }
 
 @media (max-width: 767px) {
@@ -157,9 +162,7 @@
     display: none;
   }
 
-  .xs-hidden {
-    display: none;
-  }
+
   
   .header {
     &__official {
@@ -295,6 +298,25 @@
         &_third {
           margin-top: 50px;
         }
+      }
+    }
+
+    .footer {
+      height: 380px;
+      &__map {
+        height: 380px;
+        iframe {
+          height: 580px;
+        }
+      }
+      &__info {
+        padding: 40px 50px 50px 50px;
+        height: 235px;
+        width: 400px;
+      }
+      &__addr {
+        font-size: 16px;
+        margin-bottom: 25px;
       }
     }
 
@@ -533,30 +555,79 @@
   }
 }
 
+.footer {
+  height: 380px;
+  &__map {
+    height: 380px;
+    iframe {
+      height: 480px;
+    }
+  }
+  &__info {
+    padding: 20px 50px 50px 50px;
+    height: 200px;
+    width: 260px;
+  }
+  &__addr {
+    font-size: 16px;
+    margin-bottom: 25px;
+  }
+  &__social-item {
+    height: 30px;
+    img {
+      height: 20px;
+    }
+  }
+  &__phone {
+    font-size: 18px;
+  }
 }
 
-@media (max-width: 360px) {
+.modal#order {
+  padding: 15px 25px 25px 25px;
+  max-width: 260px;
+  min-height: 320px;
+.modal__close {
+  right: -29px;
+}
+.feed-form input {
+  max-width: 240px;
+}
+.button.button_submit {
+  max-width: 240px;
+  margin: 0;
+}
+}
+
+#consultation.modal {
+  padding: 13px 10px 25px 10px;
+  max-width: 280px;
+  height: 300px;
+.modal__subtitle {
+  font-size: 22px;
+  line-height: 22px;
+}
+.modal__descr {
+  font-size: 18px;
+  line-height: 18px;
+  margin-top: 20px;
+}
+.modal__close {
+  right: -27px;
+}
+.feed-form input {
+  max-width: 260px;
+}
+.button.button_submit {
+  max-width: 240px;
+  max-height: 50px;
+  margin: auto;
+}
+}
 
 
-  .promo {
-    height: 100%;
-    margin-bottom: 10px;
-  }
+}
 
 
-  .header {
-    &__logo {
-      display: block;
-      width: 250px;
-      margin: auto;
-    }
-  }
-
-    .feed-form {
-      margin: auto;
-      margin-top: 30px;
-      width: 280px;
-    }
-  }
 
 
