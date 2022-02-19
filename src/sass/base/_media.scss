@@ -602,7 +602,7 @@
 #consultation.modal {
   padding: 13px 10px 25px 10px;
   max-width: 280px;
-  height: 300px;
+  min-height: 300px;
 .modal__subtitle {
   font-size: 22px;
   line-height: 22px;
@@ -619,8 +619,9 @@
   max-width: 260px;
 }
 .button.button_submit {
-  max-width: 240px;
-  max-height: 50px;
+  max-width: 220px;
+  max-height: 45px;
+  font-size: 13px;
   margin: auto;
 }
 }

@@ -8,4 +8,12 @@
       text-align: left;
       color: #fff;
     }
+    .error {
+      border: 1px solid red;
+  }
+  label.error {
+      color: #fff;
+      border: none;
+      margin-bottom: 15px;
+  }
 }
