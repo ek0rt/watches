@@ -15,9 +15,10 @@ $(document).ready(function() {
       })
     });
   };
+  
   toggleSlide('.catalog-item__link');
   toggleSlide('.catalog-item__back');
-
+});
   //Modal
 
   $('[data-modal=consultation]').on('click', function() {
@@ -61,7 +62,7 @@ $(document).ready(function() {
       }
     });
   };
-});
+
 
 validateForms('#consultation-form');
 validateForms('#consultation form');
