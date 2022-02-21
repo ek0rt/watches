@@ -463,6 +463,16 @@
         align-items: center;
         justify-content: center;
         margin-top: 10px;
+        a {
+          color: #fff;
+          text-decoration: none;
+        }
+        a {
+          &:hover {
+            color: #fff;
+            text-decoration: none;
+          }
+        }
       }
     }
      
