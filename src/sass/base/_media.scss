@@ -331,8 +331,8 @@
   .header {
     flex-direction: column;
     &__official {
+      margin: auto;
       margin-top: 60px;
-      margin-right: 0;
       font-size: 23px;
       span {
         font-size: 28px;
