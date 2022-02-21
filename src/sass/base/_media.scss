@@ -310,9 +310,15 @@
         }
       }
       &__info {
-        padding: 40px 50px 50px 50px;
-        height: 235px;
-        width: 400px;
+        padding: 20px 50px 50px 50px;
+        height: 200px;
+        width: 280px;
+      }
+      &__social-item {
+        height: 30px;
+        img {
+          height: 18px;
+        }
       }
       &__addr {
         font-size: 16px;
@@ -388,7 +394,7 @@
     height: 780px;
     position: relative;
     padding: 10px 15px 20px 15px;
-    background: url(../../img/bgm.png) center (center/cover) no-repeat;
+    background: url(./img/bgm.png) center (center/cover) no-repeat;
     .logo__background {
       display: block;
       position: absolute;
@@ -562,7 +568,7 @@
   }
   &__info {
     padding: 20px 50px 50px 50px;
-    height: 200px;
+    height: 170px;
     width: 260px;
   }
   &__addr {
@@ -570,13 +576,14 @@
     margin-bottom: 25px;
   }
   &__social-item {
-    height: 30px;
+    height: 26px;
     img {
-      height: 20px;
+      height: 15px;
     }
   }
   &__phone {
     font-size: 18px;
+    margin-bottom: 15px;
   }
 }
 
