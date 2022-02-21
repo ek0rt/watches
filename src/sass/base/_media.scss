@@ -395,9 +395,9 @@
     } 
     
   .promo {
-    height: 780px;
+    min-height: 780px;
     position: relative;
-    padding: 10px 15px 20px 15px;
+    padding: 10px 15px 0px 15px;
     background: url(../img/bgm.png) center (center/cover) no-repeat;
     .logo__background {
       display: block;
