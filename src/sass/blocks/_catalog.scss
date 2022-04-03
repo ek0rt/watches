@@ -78,6 +78,8 @@
       color: $main-color;
       text-align: center;
       text-transform: uppercase;
+      text-decoration: underline;
+      text-underline-offset: 1px;
       &:hover {
         color: $main-color;
       }
